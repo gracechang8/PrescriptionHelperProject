@@ -1,0 +1,1157 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		55FE3E0B9A384D979CD66AA2 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D453573377A24E46A15F2F97 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				6FD765A39D804075A67EF43B /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		5910BA89DDDA492EBE1B98D1 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 20059FD635CF4664BC074186 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				838EE045D2DABA8CD207CEE8 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		8472094EAD48481EAB58BB88 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 577AF9CF5B39459691C9A4D0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A8F42CDE899DC09EF7CE195A /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				364942E03BDD4352B23E9EC6 /* PBXTargetDependency */,
+				61EBBE7B8BBE4F04AE6B4B66 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		85A4A4F15981481DB3211AC0 /* prehelp_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D41211A56A32483988DAB5B7 /* Build configuration list for PBXAggregateTarget "prehelp_autogen" */;
+			buildPhases = (
+				3F07C97004CCE69982E25EB1 /* Generate CMakeFiles/prehelp_autogen */,
+			);
+			dependencies = (
+				9C80183B0C3F40BA98FD5E81 /* PBXTargetDependency */,
+			);
+			name = prehelp_autogen;
+			productName = prehelp_autogen;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0D83C0105E6542F3B338FFCF /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/mocs_compilation.cpp */ = {isa = PBXBuildFile; fileRef = 562812C0CBED4F709C3976E7 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/mocs_compilation.cpp */; };
+		1FA2EFBFAEA441B2B8E214F5 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/prehelp.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 66DD771FCF2D4E0691EB5E54 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/prehelp.dir/Info.plist */; };
+		32FA97EB510E4A1486EE9CB5 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/.qt/launch_screen_storyboards/prehelp/LaunchScreen.storyboard */ = {isa = PBXBuildFile; fileRef = F38D60759AC8478CAF8ADEAD /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/.qt/launch_screen_storyboards/prehelp/LaunchScreen.storyboard */; };
+		4FAC59C4FEAD457191D3F802 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/mainwindow.cpp */ = {isa = PBXBuildFile; fileRef = A2705DBB60CB41F1A66F3E32 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/mainwindow.cpp */; };
+		5D80029198914BFE89A6D884 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/include/ui_mainwindow.h */ = {isa = PBXBuildFile; fileRef = C6CCB7E9A8884ABD81FA636B /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/include/ui_mainwindow.h */; };
+		70AAB0184CD74AD3A8BBFAC1 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/main.cpp */ = {isa = PBXBuildFile; fileRef = B3A8CAFA4A5F4C5583E81D2F /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/main.cpp */; };
+		A75A04D9D3F54F059D2BAE88 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/mainwindow.h */ = {isa = PBXBuildFile; fileRef = 9DFC96C33BEA400BB00AF67E /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/mainwindow.h */; };
+		CCC681A6D373485D86484CCF /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0F9C0C4F95FE4DFCAAE4C845 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/CMakeLists.txt */; };
+		F08209FAFF0D4E65BACED24C /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/mainwindow.ui */ = {isa = PBXBuildFile; fileRef = A52CAD9757F84F21969A1B4C /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/mainwindow.ui */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		BDA02D7A60BC45C1BACEE350 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		E2227B9260594699BF5698A5 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E7644AA091F04F318E0D8A24 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F5C6DED12C064D64984A8F00 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		275763E835CD4F6C83795668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D334408FB66F49CBB0D54BB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8472094EAD48481EAB58BB88;
+			remoteInfo = ALL_BUILD;
+		};
+		390F4EB2A5454AA49D0DB5AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D334408FB66F49CBB0D54BB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85A4A4F15981481DB3211AC0;
+			remoteInfo = prehelp_autogen;
+		};
+		948EF84C60A34D6489D8B753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D334408FB66F49CBB0D54BB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2793A5BBE5C4C90B6D77B76;
+			remoteInfo = prehelp;
+		};
+		C262A53E9EE84CD8B2D97B88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D334408FB66F49CBB0D54BB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5910BA89DDDA492EBE1B98D1;
+			remoteInfo = ZERO_CHECK;
+		};
+		F133904EECFA4F7C93D40825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D334408FB66F49CBB0D54BB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5910BA89DDDA492EBE1B98D1;
+			remoteInfo = ZERO_CHECK;
+		};
+		FB70F4FCBBED4D8989CABFBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D334408FB66F49CBB0D54BB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5910BA89DDDA492EBE1B98D1;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0870A1923BB74A9C9F767156 /* prehelp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = prehelp; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B36285269BF4B6C8D9A1DAA /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0F9C0C4F95FE4DFCAAE4C845 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1E99F296B8704B1B85D15640 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		562812C0CBED4F709C3976E7 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = build/Qt_6_7_0_for_iOS/prehelp_autogen/mocs_compilation.cpp; sourceTree = SOURCE_ROOT; };
+		66DD771FCF2D4E0691EB5E54 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/prehelp.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/Qt_6_7_0_for_iOS/CMakeFiles/prehelp.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		9DFC96C33BEA400BB00AF67E /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/mainwindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mainwindow.h; path = mainwindow.h; sourceTree = SOURCE_ROOT; };
+		A2705DBB60CB41F1A66F3E32 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/mainwindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mainwindow.cpp; path = mainwindow.cpp; sourceTree = SOURCE_ROOT; };
+		A52CAD9757F84F21969A1B4C /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/mainwindow.ui */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mainwindow.ui; path = mainwindow.ui; sourceTree = SOURCE_ROOT; };
+		B3A8CAFA4A5F4C5583E81D2F /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		C6CCB7E9A8884ABD81FA636B /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/include/ui_mainwindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ui_mainwindow.h; path = build/Qt_6_7_0_for_iOS/prehelp_autogen/include/ui_mainwindow.h; sourceTree = SOURCE_ROOT; };
+		F38D60759AC8478CAF8ADEAD /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/.qt/launch_screen_storyboards/prehelp/LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = build/Qt_6_7_0_for_iOS/.qt/launch_screen_storyboards/prehelp/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51356B92CDC945F7B03C0A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B330B6ADA84A58B2C7C637 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3D61AC3D9152456EB2C4EC27 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				32B330B6ADA84A58B2C7C637 /* CMake Rules */,
+				0B36285269BF4B6C8D9A1DAA /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		4EFCB16BD78D499A8511FF22 /* prehelp_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				DEB17AF1252D4D449E3E57B4 /* CMake Rules */,
+				1E99F296B8704B1B85D15640 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/CMakeLists.txt */,
+			);
+			name = prehelp_autogen;
+			sourceTree = "<group>";
+		};
+		504AA4E1F01E468B9B4E5B79 = {
+			isa = PBXGroup;
+			children = (
+				BD7E163B8A774FD0825B0858 /* prehelp */,
+				4EFCB16BD78D499A8511FF22 /* prehelp_autogen */,
+				3D61AC3D9152456EB2C4EC27 /* ALL_BUILD */,
+				EDFDE2FE3BBF4548912F7AAA /* Products */,
+				C76DDA01008241FEA5795904 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71E9BCF837A641BC924E4C7F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6CCB7E9A8884ABD81FA636B /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/include/ui_mainwindow.h */,
+				9DFC96C33BEA400BB00AF67E /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/mainwindow.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		8EF5434F75E34738AD09464C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F38D60759AC8478CAF8ADEAD /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/.qt/launch_screen_storyboards/prehelp/LaunchScreen.storyboard */,
+				66DD771FCF2D4E0691EB5E54 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/prehelp.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BD7E163B8A774FD0825B0858 /* prehelp */ = {
+			isa = PBXGroup;
+			children = (
+				E6F36553180248749EBE75C7 /* Source Files */,
+				71E9BCF837A641BC924E4C7F /* Header Files */,
+				8EF5434F75E34738AD09464C /* Resources */,
+				0F9C0C4F95FE4DFCAAE4C845 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/CMakeLists.txt */,
+				A52CAD9757F84F21969A1B4C /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/mainwindow.ui */,
+			);
+			name = prehelp;
+			sourceTree = "<group>";
+		};
+		C76DDA01008241FEA5795904 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEB17AF1252D4D449E3E57B4 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E6F36553180248749EBE75C7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				562812C0CBED4F709C3976E7 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/mocs_compilation.cpp */,
+				B3A8CAFA4A5F4C5583E81D2F /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/main.cpp */,
+				A2705DBB60CB41F1A66F3E32 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/mainwindow.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EDFDE2FE3BBF4548912F7AAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0870A1923BB74A9C9F767156 /* prehelp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2793A5BBE5C4C90B6D77B76 /* prehelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1FCB2C757E49BDA9A27327 /* Build configuration list for PBXNativeTarget "prehelp" */;
+			buildPhases = (
+				84C10A27C8F34FF2816EC1E2 /* Resources */,
+				8AB75B4211784633A529F658 /* Sources */,
+				51356B92CDC945F7B03C0A02 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EA6A6FA9C7D4707BC659B4A /* PBXTargetDependency */,
+				32AB6AC604F44A48809B6709 /* PBXTargetDependency */,
+			);
+			name = prehelp;
+			productName = prehelp;
+			productReference = 0870A1923BB74A9C9F767156 /* prehelp */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D334408FB66F49CBB0D54BB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1530;
+			};
+			buildConfigurationList = 58001018AD014EC591ABD602 /* Build configuration list for PBXProject "prehelp" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E7644AA091F04F318E0D8A24 /* Debug */,
+				BDA02D7A60BC45C1BACEE350 /* Release */,
+				E2227B9260594699BF5698A5 /* MinSizeRel */,
+				F5C6DED12C064D64984A8F00 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 504AA4E1F01E468B9B4E5B79;
+			projectDirPath = "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp";
+			projectRoot = "";
+			targets = (
+				8472094EAD48481EAB58BB88 /* ALL_BUILD */,
+				5910BA89DDDA492EBE1B98D1 /* ZERO_CHECK */,
+				55FE3E0B9A384D979CD66AA2 /* install */,
+				E2793A5BBE5C4C90B6D77B76 /* prehelp */,
+				85A4A4F15981481DB3211AC0 /* prehelp_autogen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3F07C97004CCE69982E25EB1 /* Generate CMakeFiles/prehelp_autogen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/prehelp_autogen";
+			outputPaths = (
+"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/prehelp_autogen","/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/include_Debug/ui_mainwindow.h","/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/include_MinSizeRel/ui_mainwindow.h","/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/include_RelWithDebInfo/ui_mainwindow.h","/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/include_Release/ui_mainwindow.h","/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/mocs_compilation.cpp"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS\"
+  /Users/gracechang/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/prehelp_autogen.dir/AutogenInfo.json\" Debug
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS\"
+  /Users/gracechang/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/prehelp_autogen.dir/AutogenInfo.json\" Release
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS\"
+  /Users/gracechang/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/prehelp_autogen.dir/AutogenInfo.json\" MinSizeRel
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS\"
+  /Users/gracechang/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/prehelp_autogen.dir/AutogenInfo.json\" RelWithDebInfo
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		50BCFF589502132463EC36C2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		838EE045D2DABA8CD207CEE8 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS\"
+  make -f /Users/gracechang/Library/Mobile\\ Documents/com~apple~CloudDocs/SUMMER\\ CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS\"
+  make -f /Users/gracechang/Library/Mobile\\ Documents/com~apple~CloudDocs/SUMMER\\ CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS\"
+  make -f /Users/gracechang/Library/Mobile\\ Documents/com~apple~CloudDocs/SUMMER\\ CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS\"
+  make -f /Users/gracechang/Library/Mobile\\ Documents/com~apple~CloudDocs/SUMMER\\ CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS\"
+  /Users/gracechang/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS\"
+  /Users/gracechang/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS\"
+  /Users/gracechang/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS\"
+  /Users/gracechang/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A8F42CDE899DC09EF7CE195A /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS\"
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C10A27C8F34FF2816EC1E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FA97EB510E4A1486EE9CB5 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/.qt/launch_screen_storyboards/prehelp/LaunchScreen.storyboard */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AB75B4211784633A529F658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D83C0105E6542F3B338FFCF /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/mocs_compilation.cpp */,
+				70AAB0184CD74AD3A8BBFAC1 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/main.cpp */,
+				4FAC59C4FEAD457191D3F802 /* /Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/mainwindow.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32AB6AC604F44A48809B6709 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85A4A4F15981481DB3211AC0 /* prehelp_autogen */;
+			targetProxy = 390F4EB2A5454AA49D0DB5AE /* PBXContainerItemProxy */;
+		};
+		364942E03BDD4352B23E9EC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5910BA89DDDA492EBE1B98D1 /* ZERO_CHECK */;
+			targetProxy = C262A53E9EE84CD8B2D97B88 /* PBXContainerItemProxy */;
+		};
+		61EBBE7B8BBE4F04AE6B4B66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2793A5BBE5C4C90B6D77B76 /* prehelp */;
+			targetProxy = 948EF84C60A34D6489D8B753 /* PBXContainerItemProxy */;
+		};
+		6FD765A39D804075A67EF43B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8472094EAD48481EAB58BB88 /* ALL_BUILD */;
+			targetProxy = 275763E835CD4F6C83795668 /* PBXContainerItemProxy */;
+		};
+		7EA6A6FA9C7D4707BC659B4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5910BA89DDDA492EBE1B98D1 /* ZERO_CHECK */;
+			targetProxy = FB70F4FCBBED4D8989CABFBD /* PBXContainerItemProxy */;
+		};
+		9C80183B0C3F40BA98FD5E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5910BA89DDDA492EBE1B98D1 /* ZERO_CHECK */;
+			targetProxy = F133904EECFA4F7C93D40825 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		164AC37BD1AA4A0E910B7214 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1D189C7457B1473099D4C862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = prehelp_autogen;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		250A4E8B5C5A43259D1659A6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = prehelp_autogen;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		25284D52F7CA49F7951A8258 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		31FFE91A9BBA4D5993702349 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				DEVELOPMENT_TEAM = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/build";
+			};
+			name = RelWithDebInfo;
+		};
+		3BC4D7CB73EF43F4AD49CCAC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				DEVELOPMENT_TEAM = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/build";
+			};
+			name = MinSizeRel;
+		};
+		406062FBD0F14ED4BCB4D5DB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		43D388E066D04F6381444D49 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/include_RelWithDebInfo\"","$(inherited)");
+				INFOPLIST_FILE = "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/prehelp.dir/Info.plist";
+				INSTALL_PATH = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DQT_QML_DEBUG        -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("'-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/objects-Release/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/objects-Release/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/platforms/objects-Release/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/objects-Release/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/iconengines/objects-Release/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/objects-Release/QSvgPlugin_init/QSvgPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Widgets_resources_1/.rcc/qrc_qstyle_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Widgets_resources_2/.rcc/qrc_qstyle1_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Widgets_resources_3/.rcc/qrc_qstyle_fusion_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Widgets_resources_4/.rcc/qrc_qmessagebox_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Gui_resources_1/.rcc/qrc_qpdf_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Gui_resources_2/.rcc/qrc_gui_shaders_init.cpp.o",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Core.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Widgets.a,/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/libqgif.a,/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/libqico.a,/Users/gracechang/Qt/6.7.0/ios/plugins/platforms/libqios.a,/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/libqjpeg.a,/Users/gracechang/Qt/6.7.0/ios/plugins/iconengines/libqsvgicon.a,/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/libqsvg.a,"-framework AudioToolbox","-framework QuartzCore",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6OpenGL.a,"-framework AssetsLibrary","-framework UniformTypeIdentifiers","-framework Photos",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledLibjpeg.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Svg.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Gui.a,"-framework OpenGLES","-framework ImageIO","-framework CoreGraphics","-framework CoreText","-framework Metal",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledHarfbuzz.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledFreetype.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledLibpng.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Core.a,"-lz","-framework IOKit","-framework CoreFoundation","-framework Foundation","-lm",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledPcre2.a,"-framework MobileCoreServices","-framework UIKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = prehelp;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/gracechang/Qt/6.7.0/ios/include/QtCore,/Users/gracechang/Qt/6.7.0/ios/include,"/Users/gracechang/Qt/6.7.0/ios/mkspecs/macx-ios-clang",/Users/gracechang/Qt/6.7.0/ios/include/QtWidgets,/Users/gracechang/Qt/6.7.0/ios/include/QtGui,"$(inherited)");
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGET_TEMP_DIR = "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/build/prehelp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4641CE1DADB74B84B21F78B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4889776235E74A3FBA3CC64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6892F216E8D546178E41F830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7EDB4372808A47188C0C84E7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = prehelp_autogen;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7F49E074419C46048A453AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				DEVELOPMENT_TEAM = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/build";
+			};
+			name = Debug;
+		};
+		88722AD74FA342C1B5BF454E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/Release${EFFECTIVE_PLATFORM_NAME}";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/include_Release\"","$(inherited)");
+				INFOPLIST_FILE = "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/prehelp.dir/Info.plist";
+				INSTALL_PATH = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DQT_QML_DEBUG     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("'-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/objects-Release/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/objects-Release/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/platforms/objects-Release/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/objects-Release/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/iconengines/objects-Release/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/objects-Release/QSvgPlugin_init/QSvgPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Widgets_resources_1/.rcc/qrc_qstyle_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Widgets_resources_2/.rcc/qrc_qstyle1_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Widgets_resources_3/.rcc/qrc_qstyle_fusion_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Widgets_resources_4/.rcc/qrc_qmessagebox_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Gui_resources_1/.rcc/qrc_qpdf_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Gui_resources_2/.rcc/qrc_gui_shaders_init.cpp.o",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Core.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Widgets.a,/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/libqgif.a,/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/libqico.a,/Users/gracechang/Qt/6.7.0/ios/plugins/platforms/libqios.a,/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/libqjpeg.a,/Users/gracechang/Qt/6.7.0/ios/plugins/iconengines/libqsvgicon.a,/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/libqsvg.a,"-framework AudioToolbox","-framework QuartzCore",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6OpenGL.a,"-framework AssetsLibrary","-framework UniformTypeIdentifiers","-framework Photos",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledLibjpeg.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Svg.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Gui.a,"-framework OpenGLES","-framework ImageIO","-framework CoreGraphics","-framework CoreText","-framework Metal",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledHarfbuzz.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledFreetype.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledLibpng.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Core.a,"-lz","-framework IOKit","-framework CoreFoundation","-framework Foundation","-lm",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledPcre2.a,"-framework MobileCoreServices","-framework UIKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = prehelp;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/gracechang/Qt/6.7.0/ios/include/QtCore,/Users/gracechang/Qt/6.7.0/ios/include,"/Users/gracechang/Qt/6.7.0/ios/mkspecs/macx-ios-clang",/Users/gracechang/Qt/6.7.0/ios/include/QtWidgets,/Users/gracechang/Qt/6.7.0/ios/include/QtGui,"$(inherited)");
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGET_TEMP_DIR = "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/build/prehelp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		96575CCE6F034585A8541416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9D876F3B4B3B42728AE17CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9F3E4A88ABD4417986936FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A093B558290146219090CC99 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B4CBE77DB1214373854B4F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				DEVELOPMENT_TEAM = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/build";
+			};
+			name = Release;
+		};
+		B6D8AA4FC0514C039C99D825 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CC6CEA9B1546496FA853841D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/Debug${EFFECTIVE_PLATFORM_NAME}";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_WIDGETS_LIB,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/include_Debug\"","$(inherited)");
+				INFOPLIST_FILE = "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/prehelp.dir/Info.plist";
+				INSTALL_PATH = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DQT_QML_DEBUG    '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("'-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/objects-Debug/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/objects-Debug/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/platforms/objects-Debug/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/objects-Debug/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/iconengines/objects-Debug/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/objects-Debug/QSvgPlugin_init/QSvgPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Debug/Widgets_resources_1/.rcc/qrc_qstyle_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Debug/Widgets_resources_2/.rcc/qrc_qstyle1_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Debug/Widgets_resources_3/.rcc/qrc_qstyle_fusion_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Debug/Widgets_resources_4/.rcc/qrc_qmessagebox_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Debug/Gui_resources_1/.rcc/qrc_qpdf_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Debug/Gui_resources_2/.rcc/qrc_gui_shaders_init.cpp.o",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Core_debug.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Widgets_debug.a,/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/libqgif_debug.a,/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/libqico_debug.a,/Users/gracechang/Qt/6.7.0/ios/plugins/platforms/libqios_debug.a,/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/libqjpeg_debug.a,/Users/gracechang/Qt/6.7.0/ios/plugins/iconengines/libqsvgicon_debug.a,/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/libqsvg_debug.a,"-framework AudioToolbox","-framework QuartzCore",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6OpenGL_debug.a,"-framework AssetsLibrary","-framework UniformTypeIdentifiers","-framework Photos",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledLibjpeg_debug.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Svg_debug.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Gui_debug.a,"-framework OpenGLES","-framework ImageIO","-framework CoreGraphics","-framework CoreText","-framework Metal",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledHarfbuzz_debug.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledFreetype_debug.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledLibpng_debug.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Core_debug.a,"-lz","-framework IOKit","-framework CoreFoundation","-framework Foundation","-lm",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledPcre2_debug.a,"-framework MobileCoreServices","-framework UIKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = prehelp;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/gracechang/Qt/6.7.0/ios/include/QtCore,/Users/gracechang/Qt/6.7.0/ios/include,"/Users/gracechang/Qt/6.7.0/ios/mkspecs/macx-ios-clang",/Users/gracechang/Qt/6.7.0/ios/include/QtWidgets,/Users/gracechang/Qt/6.7.0/ios/include/QtGui,"$(inherited)");
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGET_TEMP_DIR = "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/build/prehelp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D70EB12C7C644494970109FE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DAB2EFA754C449538214EDF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = prehelp_autogen;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EA26323259C4463CA0297A40 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_CORE_LIB,QT_NO_DEBUG,QT_WIDGETS_LIB,QT_GUI_LIB,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/prehelp_autogen/include_MinSizeRel\"","$(inherited)");
+				INFOPLIST_FILE = "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/prehelp.dir/Info.plist";
+				INSTALL_PATH = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DQT_QML_DEBUG     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("'-Wl,-e,_qt_main_wrapper' -Wl,-headerpad_max_install_names","/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/objects-Release/QGifPlugin_init/QGifPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/objects-Release/QICOPlugin_init/QICOPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/platforms/objects-Release/QIOSIntegrationPlugin_init/QIOSIntegrationPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/objects-Release/QJpegPlugin_init/QJpegPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/iconengines/objects-Release/QSvgIconPlugin_init/QSvgIconPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/objects-Release/QSvgPlugin_init/QSvgPlugin_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Widgets_resources_1/.rcc/qrc_qstyle_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Widgets_resources_2/.rcc/qrc_qstyle1_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Widgets_resources_3/.rcc/qrc_qstyle_fusion_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Widgets_resources_4/.rcc/qrc_qmessagebox_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Gui_resources_1/.rcc/qrc_qpdf_init.cpp.o","/Users/gracechang/Qt/6.7.0/ios/lib/objects-Release/Gui_resources_2/.rcc/qrc_gui_shaders_init.cpp.o",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Core.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Widgets.a,/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/libqgif.a,/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/libqico.a,/Users/gracechang/Qt/6.7.0/ios/plugins/platforms/libqios.a,/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/libqjpeg.a,/Users/gracechang/Qt/6.7.0/ios/plugins/iconengines/libqsvgicon.a,/Users/gracechang/Qt/6.7.0/ios/plugins/imageformats/libqsvg.a,"-framework AudioToolbox","-framework QuartzCore",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6OpenGL.a,"-framework AssetsLibrary","-framework UniformTypeIdentifiers","-framework Photos",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledLibjpeg.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Svg.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Gui.a,"-framework OpenGLES","-framework ImageIO","-framework CoreGraphics","-framework CoreText","-framework Metal",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledHarfbuzz.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledFreetype.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledLibpng.a,/Users/gracechang/Qt/6.7.0/ios/lib/libQt6Core.a,"-lz","-framework IOKit","-framework CoreFoundation","-framework Foundation","-lm",/Users/gracechang/Qt/6.7.0/ios/lib/libQt6BundledPcre2.a,"-framework MobileCoreServices","-framework UIKit","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = prehelp;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/gracechang/Qt/6.7.0/ios/include/QtCore,/Users/gracechang/Qt/6.7.0/ios/include,"/Users/gracechang/Qt/6.7.0/ios/mkspecs/macx-ios-clang",/Users/gracechang/Qt/6.7.0/ios/include/QtWidgets,/Users/gracechang/Qt/6.7.0/ios/include/QtGui,"$(inherited)");
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGET_TEMP_DIR = "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/build/prehelp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20059FD635CF4664BC074186 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4641CE1DADB74B84B21F78B1 /* Debug */,
+				96575CCE6F034585A8541416 /* Release */,
+				B6D8AA4FC0514C039C99D825 /* MinSizeRel */,
+				D70EB12C7C644494970109FE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		577AF9CF5B39459691C9A4D0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F3E4A88ABD4417986936FAE /* Debug */,
+				4889776235E74A3FBA3CC64E /* Release */,
+				25284D52F7CA49F7951A8258 /* MinSizeRel */,
+				164AC37BD1AA4A0E910B7214 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		58001018AD014EC591ABD602 /* Build configuration list for PBXProject "prehelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F49E074419C46048A453AD6 /* Debug */,
+				B4CBE77DB1214373854B4F37 /* Release */,
+				3BC4D7CB73EF43F4AD49CCAC /* MinSizeRel */,
+				31FFE91A9BBA4D5993702349 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CB1FCB2C757E49BDA9A27327 /* Build configuration list for PBXNativeTarget "prehelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6CEA9B1546496FA853841D /* Debug */,
+				88722AD74FA342C1B5BF454E /* Release */,
+				EA26323259C4463CA0297A40 /* MinSizeRel */,
+				43D388E066D04F6381444D49 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D41211A56A32483988DAB5B7 /* Build configuration list for PBXAggregateTarget "prehelp_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB2EFA754C449538214EDF5 /* Debug */,
+				1D189C7457B1473099D4C862 /* Release */,
+				7EDB4372808A47188C0C84E7 /* MinSizeRel */,
+				250A4E8B5C5A43259D1659A6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D453573377A24E46A15F2F97 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6892F216E8D546178E41F830 /* Debug */,
+				9D876F3B4B3B42728AE17CE3 /* Release */,
+				A093B558290146219090CC99 /* MinSizeRel */,
+				406062FBD0F14ED4BCB4D5DB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D334408FB66F49CBB0D54BB6 /* Project object */;
+}
