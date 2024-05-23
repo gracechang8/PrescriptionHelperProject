@@ -1,0 +1,5 @@
+/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/prehelp.dir
+/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/install.dir
+/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/prehelp_autogen.dir
+/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/ALL_BUILD.dir
+/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeFiles/ZERO_CHECK.dir

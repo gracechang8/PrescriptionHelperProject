@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+if test "$CONFIGURATION" = "Debug"; then :
+  cd "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS"
+  make -f /Users/gracechang/Library/Mobile\ Documents/com~apple~CloudDocs/SUMMER\ CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeScripts/ReRunCMake.make
+fi
+if test "$CONFIGURATION" = "Release"; then :
+  cd "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS"
+  make -f /Users/gracechang/Library/Mobile\ Documents/com~apple~CloudDocs/SUMMER\ CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeScripts/ReRunCMake.make
+fi
+if test "$CONFIGURATION" = "MinSizeRel"; then :
+  cd "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS"
+  make -f /Users/gracechang/Library/Mobile\ Documents/com~apple~CloudDocs/SUMMER\ CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeScripts/ReRunCMake.make
+fi
+if test "$CONFIGURATION" = "RelWithDebInfo"; then :
+  cd "/Users/gracechang/Library/Mobile Documents/com~apple~CloudDocs/SUMMER CODING/prehelp/build/Qt_6_7_0_for_iOS"
+  make -f /Users/gracechang/Library/Mobile\ Documents/com~apple~CloudDocs/SUMMER\ CODING/prehelp/build/Qt_6_7_0_for_iOS/CMakeScripts/ReRunCMake.make
+fi
+
