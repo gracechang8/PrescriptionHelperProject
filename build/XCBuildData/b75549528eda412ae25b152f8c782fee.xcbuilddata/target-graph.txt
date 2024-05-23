@@ -1,0 +1,10 @@
+Target dependency graph (4 targets)
+Target 'ALL_BUILD' in project 'prehelp'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'prehelp'
+➜ Explicit dependency on target 'prehelp' in project 'prehelp'
+Target 'prehelp' in project 'prehelp'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'prehelp'
+➜ Explicit dependency on target 'prehelp_autogen' in project 'prehelp'
+Target 'prehelp_autogen' in project 'prehelp'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'prehelp'
+Target 'ZERO_CHECK' in project 'prehelp' (no dependencies)
